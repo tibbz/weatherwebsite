@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="stylesheet/weathermai.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="weatherpage">
+
+            <div class="weathertitle">
+                <h2>WEATHER</h2>
+            </div>
+
+
+            <div class="searchcity">
+                <input type="search" id="citybutton" @change="citysearch">
+                <button id="citysearch" @click="citysearch">Search city</button>
+            </div>
+
+
+            <div class="weatherresult" v-if="city" v-bind:class="[status]">
+                <p class="cityname">{{city}}</p>
+                <p class="status">{{status}}</p>
+                <p class="text2">{{temp}}ºC</p>
+                <p class="text1">Minimum temperature today:</p>
+                <p class="text2">{{mintemp}}ºC</p>
+                <p class="text1">Maximum temperature today:</p>
+                <p class="text2">{{maxtemp}}ºC</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script src="weathermain.js"></script>
+
+</body>
+
+</html>

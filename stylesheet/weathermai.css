@@ -1,0 +1,149 @@
+.weatherpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: skyblue;
+}
+
+
+.weathertitle {
+    display: flex;
+    background-image:url(https://media.mnn.com/assets/images/2011/11/hurricane_katrina.jpg.560x0_q80_crop-smart.jpg);
+    opacity: 50%;
+    font-size: 50px;
+    font-family: helvetica; 
+    color: skyblue;
+    border: 1px solid blue;
+    border-radius: 50px;
+    width: 30%;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.searchcity {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.weatherresult {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+    height: 390px;
+    width: 360px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: rgba(206, 206, 206, 0.36);
+    box-shadow: 5px 5px 20px 2px black;
+}
+
+.cityname {
+    font-size: 30px;
+    border-radius: 50px;
+    font-family: helvetica; 
+}
+
+.status {
+    color: whitesmoke;
+    background: skyblue;
+    font-family: helvetica; 
+    opacity: 0.9;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.text2 {
+    color: whitesmoke;
+    font-family: helvetica; 
+    background: skyblue;
+    opacity: 0.9;
+}
+
+.text1 {
+    color: whitesmoke;
+    font-family: helvetica; 
+    background: #00bcd4;
+    opacity: 0.9;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+div.weatherresult.clear.sky {
+    width: 40%;
+    background-image:url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/421f0c16071075.562a500e6ddd4.gif");
+}
+
+div.weatherresult.mist {
+    width: 40%;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/4d353e16071075.562a504473c5c.gif");
+    
+}
+
+div.weatherresult.fog {
+    width: 40%;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/4d353e16071075.562a504473c5c.gif");
+    
+}
+
+div.weatherresult.scattered.clouds {
+    width: 40%;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/c81fed16071075.562a501d5e911.gif");
+    
+}
+
+div.weatherresult.few.clouds {
+    width: 40%;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/c81fed16071075.562a501d5e911.gif");
+    
+}
+
+div.weatherresult.broken.clouds {
+    width: 40%;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/c81fed16071075.562a501d5e911.gif");
+    
+}
+
+div.weatherresult.overcast.clouds {
+    width: 40%;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/d241d716071075.562a50091d914.gif");
+    
+}
+
+div.weatherresult.thunderstorm {
+    width: 40%;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/58027c16071075.562a502d796a8.gif");
+    
+}
+
+div.weatherresult.drizzle.rain {
+    width: 40%;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/c4e6c516071075.562a501d9fcc4.gif");
+    
+}
+
+div.weatherresult.moderate.rain {
+    width: 40%;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/c4e6c516071075.562a501d9fcc4.gif");
+}
+
+div.weatherresult.light.rain {
+    width: 40%;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/c4e6c516071075.562a501d9fcc4.gif");
+}
+
+div.weatherresult.light.intensity.shower.rain {
+    width: 40%;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/c4e6c516071075.562a501d9fcc4.gif");
+    
+}
+
+div.weatherresult.light.snow {
+    width: 40%;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/a2405c16071075.562a5050beed0.gif");
+    
+}
